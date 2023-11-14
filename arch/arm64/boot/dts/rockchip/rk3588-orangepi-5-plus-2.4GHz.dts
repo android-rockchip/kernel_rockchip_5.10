@@ -1,0 +1,166 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2021 Rockchip Electronics Co., Ltd.
+ *
+ */
+
+/dts-v1/;
+
+#include "rk3588-orangepi-5-plus.dts"
+
+&cluster0_opp_table {
+        opp-408000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-600000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-816000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1008000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1104000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-1200000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1416000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1608000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+//        opp-1800000000 {
+//                status = "disabled";
+//        };
+};
+
+&cluster1_opp_table {
+        opp-408000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-600000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-816000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1008000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1104000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1200000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1416000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-1608000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-1800000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-2016000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-2208000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+        opp-2256000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2304000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2352000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+};
+
+&cluster2_opp_table {
+        opp-408000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-600000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-816000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1008000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1104000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1200000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1416000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1608000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-1800000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2016000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2208000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2256000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2304000000 {
+                status = "disabled";
+		opp-supported-hw = <0x0 0x0>;
+        };
+        opp-2352000000 {
+		opp-supported-hw = <0x0 0x0>;
+                status = "disabled";
+        };
+};
+
